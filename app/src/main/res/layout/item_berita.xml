@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/item_background"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:elevation="2dp">
+
+    <!-- Judul Berita -->
+    <TextView
+        android:id="@+id/textJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul Berita"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:maxLines="2"
+        android:ellipsize="end" />
+
+    <!-- Tanggal dan Kategori -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/textTanggal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="14 Nov 2024"
+            android:textSize="12sp"
+            android:textColor="#666666" />
+
+        <TextView
+            android:id="@+id/textKategori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teknologi"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:background="#2196F3"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <!-- Gambar Berita -->
+    <ImageView
+        android:id="@+id/imageBerita"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/default_news"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="12dp"
+        android:background="#E0E0E0" />
+
+    <!-- Ringkasan Berita -->
+    <TextView
+        android:id="@+id/textRingkasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ini adalah ringkasan berita yang akan ditampilkan di sini..."
+        android:textSize="14sp"
+        android:textColor="#424242"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:layout_marginTop="12dp" />
+
+    <!-- Pembaca dan Waktu Baca -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/textWaktuBaca"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📖 5 min read"
+            android:textSize="12sp"
+            android:textColor="#666666" />
+
+        <TextView
+            android:id="@+id/textJumlahPembaca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👁️ 1.2k"
+            android:textSize="12sp"
+            android:textColor="#666666" />
+
+    </LinearLayout>
+
+</LinearLayout>
