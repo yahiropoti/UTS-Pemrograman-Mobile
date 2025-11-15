@@ -2,39 +2,29 @@
 
 Ini merupakan repositori untuk tugas Ujian Tengah Semester (UTS) mata kuliah Pemrograman Mobile. Aplikasi ini dikembangkan menggunakan Android Studio dan berisi implementasi berbagai fitur mobile dasar hingga menengah.
 
-📱 Deskripsi Aplikasi
+Deskripsi Aplikasi
 Aplikasi "Bara UTS Mobile App" adalah aplikasi mobile yang menampilkan berbagai halaman dan fitur yang umum digunakan dalam pengembangan aplikasi Android. Aplikasi ini dibuat untuk memenuhi tugas UTS dan menerapkan konsep-konsep seperti:
+- Navigasi antarhalaman
+- Penggunaan widget dan layout
+- Input form dengan berbagai jenis kontrol
+- Integrasi media (gambar, video)
+- Penggunaan fragment dan Bottom Navigation Bar
 
-Navigasi antarhalaman
-
-Penggunaan widget dan layout
-
-Input form dengan berbagai jenis kontrol
-
-Integrasi media (gambar, video)
-
-Penggunaan fragment dan Bottom Navigation Bar
-
-✨ Fitur yang Diimplementasikan
+Fitur yang Diimplementasikan
 1. Splash Screen
-Durasi tampil 5 detik
 
-Menampilkan logo, foto developer, NRP, dan nama
-
-Latar belakang fullscreen
+- Durasi tampil 5 detik
+- Menampilkan logo, foto developer, NRP, dan nama
+- Latar belakang fullscreen
 
 2. Bottom Navigation Bar
+
 Navigasi antara halaman:
-
-Profil
-
-Kontak
-
-Kalkulator
-
-Cuaca
-
-Berita
+- Profil
+- Kontak
+- Kalkulator
+- Cuaca
+- Berita
 
 3. Halaman Profil
 Form input data pribadi dengan:
